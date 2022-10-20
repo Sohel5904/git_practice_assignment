@@ -3,7 +3,7 @@
 let num = 13
 
  let count=0;
-    for (leti=1;i<=num;i++){
+    for (let i=1;i<=num;i++){
         if(num%i===0){
             count++;
         }
@@ -17,10 +17,10 @@ let num = 13
 //problem2checkPalindrome
 
 let N=6;
-let str=nrupul;
+let str="nrupul";
 
  let new_str = "";
-  for(let i=N-1;i>=0;i++){
+  for(let i=N-1;i>=0;i--){
       new_str = new_str + str[i];
   }
   if(str==new_str){
